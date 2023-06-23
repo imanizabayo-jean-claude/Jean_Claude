@@ -1,0 +1,36 @@
+:root{
+    --bgColor:#e3e7e8;
+    --black:#141647;
+    --redColor:#E88;
+}
+body{
+    background-color: var(--bgColor);
+    color:var(--redColor);
+}
+
+#heroAreaSection{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#nagigationContainer{
+    display: flex;
+    gap: 20px;
+    
+}
+.navigate{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.active{
+    background-color: red;
+}
+#Awards{
+    color: var(--black);
+}
+
+#Contact{
+    color: var(--black);
+}
